@@ -1,0 +1,390 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.body{
+  min-width: 1200px;
+  max-width: 1920px;
+  margin:0 auto;
+}
+.head{
+	background-image: url("photo/back.png");
+	width: 100%;
+	height: 100%;
+
+	width: 100%;
+	margin: 0 auto;
+
+ 	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	flex-wrap: inherit;
+}
+.head__logo{
+	font-size: 40px;
+	margin-left: 215px;
+	margin-top: 50px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+.navigation__bar {
+	display: flex;
+}
+.navigation__bar-menu{
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
+.navigation__bar-menu-item {
+	margin-right: 10px;
+	margin-left: 15px;
+	display: flex;
+	align-items: flex-end;
+	font-family: Lato;
+	color: white;
+	margin-top: 50px;
+	text-align: left;
+	transform: scaleY(1.0054);
+}
+.navigation__bar-menu-item:last-child {
+	margin-right: 285px;
+}
+.navigation__bar-menu-item-link{
+	color:white;
+}
+
+.navigation__bar-menu-item-link {
+	font-size: 13px;
+	color: ##ffffff;
+	text-decoration: none;
+}
+.words{
+	margin-top: 252px;
+	margin-bottom: 257px;
+	font-family: "Raleway";
+	color:  #ffffff;
+	font-size: 48px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 60px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	height: 37px;
+}
+.words__head--el{
+	font-family: "Lato";
+	color:  #fffefe;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+}
+
+.arrow img{
+	width: 92px;
+	height: 92px;
+	margin-bottom: 10px;
+	color: #ffff;
+}
+
+.service__add{
+	margin-top: 116px;
+	margin-bottom: 78px;
+	margin-left: 580px;
+	font-family: "Raleway";
+	color:  #222222;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 60px;
+	width:248px;
+	height: 26px;
+}
+.service__add--arr img{
+	background-color:  #222222;
+	width: 86px;
+	height: 2px;
+	margin-bottom: 78px;
+}
+.service__blocks .service__blocks--el {
+  display: inline-block;
+  align-self: flex-start;
+	justify-content: space-around;
+	width: 200px;
+	box-sizing: border-box;
+	margin-top: 70px;
+	margin-left: 180px;
+	margin-bottom: 119px;
+}
+.service__blocks:last-child{
+	margin-right: 170px;
+}
+
+.service__blocks-el-head{
+	font-family: "Lato";
+	color:  #222222;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+}
+.service__blocks-el-text{
+	font-family: "Lato";
+	color:  #222222;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.phone{
+	background: url(photo/backg.png);
+	height: 500px;
+}
+.phone__text .phone__image {
+  display: inline-block;
+	align-self: flex-start;
+	justify-content: space-between;
+	width: 2px;
+	box-sizing: border-box;
+}
+
+.phone__text{
+	padding-left: 233px;
+	padding-right: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+.phone__text--head{
+	font-family: "Lato";
+	color:  #ffffff;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 60px;
+	transform: scaleY(1.0092);
+	width:490px;
+	height: 39px;
+	margin-top: 160px;
+}
+.phone__text--under{
+	font-family: "Lato";
+	color:  #ffffff;
+	font-size: 15px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 100;
+	line-height: 28px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-bottom: 55px;
+
+}
+.phone__link{
+	font-family: "Lato";
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	text-decoration: underline;
+	text-align: left;
+}
+
+.phone__image {
+	margin-right: 400px;
+	margin-top: 75px;
+}
+
+.work__head{
+	margin-top: 119px;
+	margin-bottom:83px;
+
+	font-family: "Raleway";
+	color:  #222222;
+	font-size: 35px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 60px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.work__line{
+	margin-bottom: 83px;
+}
+.work__image0{
+	width: 280px;
+	height: 350px;
+	margin-left: 125px;
+	position: absolute;
+}
+
+.work__image01{
+	width: 280px;
+	height: 350px;
+	margin-left: 62px;
+	position: absolute;
+}
+
+.work__image02{
+	width: 280px;
+	height: 350px;
+	margin-left: 31px;
+	position: absolute;
+}
+
+.work__image--second{
+	width: 280px;
+	height: 350px;
+	position: relative;
+	margin-left: 548px;
+}
+.work__image--third{
+	width: 280px;
+	height: 350px;
+	position: relative;
+	margin-right: 100px;
+	margin-left: 13px;
+}
+.work__blocks .work__image--second .work__image--third{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 50px;
+	padding: 50px;
+	justify-content: space-around;
+	margin-left: 250px;
+	margin-right: 20px;
+}
+.work__button{
+		display: inline-block;
+		border-width: 3px;
+		border-color:  #222222;
+		border-style: solid;
+
+		font-size: 15px;
+		font-weight: 600;
+		text-align: center;
+		text-decoration: none;
+		width: 280px;
+		height: 50px;
+		margin-top: 79px;
+		margin-left: 547px;
+		margin-bottom: 80px;
+
+		padding: 16px 25px;
+
+		color: #222222;
+
+		transition: all .2s ease;
+}
+.work__button:hover{
+		background-color: #ffff;
+		border: 1px solid #222222;
+}
+.work__button--link{
+	text-decoration: none;
+	font-family: "Lato";
+	color:  #222222;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 15px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+
+.touch{
+	background: url(photo/bg.png);
+}
+.touch__head{
+	margin-top: 118px;
+	margin-bottom: 74px;
+
+	font-family: "Raleway";
+	color:  #ffffff;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 60px;
+	text-align: center;
+}
+.touch__line img{
+	margin-bottom: 73px;
+}
+
+.touch__shape {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: flex-end;
+	margin-bottom: 70px;
+}
+
+.touch__shape--el {
+	margin-right: 24px;
+}
+.touch__log{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	margin-left: 200px;
+	margin-right: 400px;
+}
+.touch__log--el{
+	width: 620px;
+	border: none;
+	border-bottom: 2px solid #afafaf;
+	background: none;
+	color: #676767;
+
+	margin-bottom: 50px;
+	margin-left: 153px;
+	margin-right: -21px;
+
+	font-family: 'Lato', sans-serif;
+	font-weight: 70px;
+	font-size: 18px;
+	line-height: 40px;
+	font-style: oblique;
+}
+.touch__log-el-message{
+	text-align: center;
+	margin-right: 200px;
+}
+
+.touch__button{
+	display: inline-block;
+	border-width: 3px;
+	border-color:  #ffffff;
+	border-style: solid;
+	width: 177px;
+	height: 54px;
+
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	width: 280px;
+	height: 50px;
+	margin-top: 79px;
+	margin-left: 547px;
+	margin-bottom: 55px;
+
+	padding: 16px 25px;
+
+	color: #222222;
+
+	transition: all .2s ease;
+}
+.touch__button:hover{
+	background-color: #000000;
+	border: 1px solid #222222;
+}
+.touch__button--link{
+	text-decoration: none;
+	font-family: "Lato";
+	color:  #ffff;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 15px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
